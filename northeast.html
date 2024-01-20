@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="./vendor/jquery/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+body  {
+  
+  background-color: #cccccc;
+  font-family: 'Roboto', sans-serif;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 500px;
+  height: 400px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: pink;
+}
+
+.flip-box-back {
+  background-color: #555;
+  color: yellow;
+  transform: rotateY(180deg);
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      </button>
+      <a class="navbar-brand" href="maintourism.html">Home</a>
+    </div>
+     </div>
+</nav>
+<h1>North East India Tourist Spot</h1>
+<h3>Hover over the image below:</h3>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="C:\xampp\htdocs\php\miniprbootni\img\Greaves_East_India_Kolkata.jpg" alt="greaves" style="width:500px;height:400px">
+    </div>
+    <div class="flip-box-back">
+      <h2>Kolkata</h2>
+      <p>Kolkata (formerly Calcutta) is the capital of India's West Bengal state. Founded as an East India Company trading post, it was India's capital under the British Raj from 1773–1911. Today it’s known for its grand colonial architecture, art galleries and cultural festivals. It’s also home to Mother House, headquarters of the Missionaries of Charity, founded by Mother Teresa, whose tomb is on site.
+3-star hotel averaging ₹1,879, 5-star averaging ₹4,747
+2 h flight, from ₹7,570</p>
+
+	
+
+
+    </div>
+  </div>
+</div>
+
+<br><br><br><div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="C:\xampp\htdocs\php\miniprbootni\img\maidan.jpg" alt="maidan" style="width:500px;height:400px">
+    </div>
+    <div class="flip-box-back">
+      <h2>Maidan</h2>
+      <p>The Maidan, also referred to as the Brigade Parade Ground, is the largest urban park in Kolkata in the Indian state of West Bengal. It is a vast stretch of field that includes numerous play grounds, including the famous cricketing venue Eden Gardens, several football stadiums and the Kolkata Race Course. </p>
+      </div>
+  </div>
+</div>
+
+<br><br><br><div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="C:\xampp\htdocs\php\miniprbootni\img\Guwahati-Assam.jpg" alt="guwatiassam" style="width:500px;height:400px">
+    </div>
+    <div class="flip-box-back">
+      <h2>Guwahati</h2>
+      <p>Guwahati is a sprawling city beside the Brahmaputra River in the northeast Indian state of Assam. It’s known for holy sites like the hilltop Kamakhya Temple, featuring shrines to the Hindu deities Shiva and Vishnu. To the east, 18th-century Navagraha Temple is an astronomical center with planetary shrines. Umananda Temple, dedicated to Shiva and covered with engravings, stands on Peacock 
+3-star hotel averaging ₹2,328, 5-star averaging ₹6,796
+2 h 20 min flight, from ₹10,440.</p>
+      </div>
+  </div>
+</div>
+
+<br><br><br><div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="C:\xampp\htdocs\php\miniprbootni\img\MAJULI.jpg" alt="majuli" style="width:500px;height:400px">
+    </div>
+    <div class="flip-box-back">
+      <h2>Majuli</h2>
+      <p>Mājuli or Majoli is a river island in the Brahmaputra River, Assam and in 2016 it became the first island to be made a district in India. It had an area of 880 square kilometres at the beginning of the 20th century, but having lost significantly to erosion it covers 352 square kilometres as at 2014.
+3-star hotel averaging ₹1,599
+4 h 45 min flight, from ₹12,657</p>
+      </div>
+  </div>
+</div>
+      
+  <br><br><br><div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="C:\xampp\htdocs\php\miniprbootni\img\buddhasmrithipark.jpg" alt="smrithipark" style="width:500px;height:400px">
+    </div>
+    <div class="flip-box-back">
+      <h2>Buddha Smriti Park</h2>
+      <p>Buddha Smriti Park also known as Buddha Memorial Park is an urban park located on Frazer Road near Patna Junction in Patna, India. This park has been designed by Vikram Lall and developed by the Bihar Government to commemorate the 2554th birth anniversary of the Buddha.</p>
+      </div>
+  </div>
+</div>
+
+<br><br><br><div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="C:\xampp\htdocs\php\miniprbootni\img\nathula.jpg" alt="nathula" style="width:500px;height:400px">
+    </div>
+    <div class="flip-box-back">
+      <h2>Nathula</h2>
+      <p>Nathu La is a mountain pass in the Himalayas in East Sikkim district. It connects the Indian state of Sikkim with China's Tibet Autonomous Region. The pass, at 4,310 m above mean sea level, forms a part of an offshoot of the ancient Tea Horse Road. Nathu means "listening ears".
+Elevation: 4,310 m
+Location: India (Sikkim) – China (Tibet Autonomous Region)
+Range: Himalayas
+Parent range: Himalayas.</p>
+      </div>
+  </div>
+</div>
+
+<br><br><br><div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="C:\xampp\htdocs\php\miniprbootni\img\jaisalmarfort.jpg" alt="jaisalmer" style="width:500px;height:400px">
+    </div>
+    <div class="flip-box-back">
+      <h2>Jaisalmer fort</h2>
+      <p>Jaisalmer Fort is situated in the city of Jaisalmer, in the Indian state of Rajasthan. It is believed to be one of the very few "living forts" in the world, as nearly one fourth of the old city's population still resides within the fort. For the better part of its 800-year history, the fort was the city of Jaisalmer.</p>
+      </div>
+  </div>
+</div>
+
+<br><br><br><div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="C:\xampp\htdocs\php\miniprbootni\img\rajaranitemple.jpg" alt="rajaranitemple" style="width:500px;height:400px">
+    </div>
+    <div class="flip-box-back">
+      <h2>Rajarani temple</h2>
+      <p>Rajarani Temple is an 11th-century Hindu temple located in Bhubaneswar, the capital city of Odisha, India. Wikipedia
+Address: Tankapani Rd, near BOI ATM, Kedar Gouri Vihar, Rajarani Colony, Rajarani Temple, Bhubaneswar, Odisha 751002
+Hours: 
+Open ⋅ Closes 5PM
+Architectural style: Kalinga architecture
+Deity: Shiva
+Completed: 11th century</p>
+      </div>
+  </div>
+</div>
+<!--Google map-->
+<br><br>
+<p> Click here to visit more places near by using map</p>
+<ul><ul><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7367092.958190139!2d88.21026213579489!3d25.63104340148274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374f651182a461ab%3A0xd8b5c2e1f67bebf0!2sNortheast%20India!5e0!3m2!1sen!2sin!4v1620885870612!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</body>
+</html>
